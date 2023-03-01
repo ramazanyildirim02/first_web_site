@@ -1,0 +1,345 @@
+@media screen and ( min-width: 320px ) and ( max-width: 480px ) {
+    /* personal_info */
+    .main > .article >  .home > .personal_info {
+        width: 100%;
+        padding-left: 10px;
+    } 
+
+    /* 
+        frame_text
+        skill_container,
+        frame_text_info,
+        service_container,
+        service_container_item,
+        personal_info_container,
+    */
+    .main > .article >  .about > .frame_text,
+    .main > .article > .skill > .skill_container,
+    .main > .article > .service > .service_container,
+    .main > .article >  .home > .personal_info > .personal_info_container,
+    .main > .article > .service > .service_container > .service_container_item,
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_detail > .frame_text_info {
+        width: 100%;
+    }
+    .main > .article >  .home > .personal_info > .personal_info_container > span {
+        font-size:18px;
+    }
+    .main > .article >  .home > .personal_info > .personal_info_container > h1 {
+        font-size: 35px;
+    }
+    .main > .article >  .home > .personal_info > .personal_info_container > h3 {
+        font-size: 18px;
+    }
+
+    /* about */
+    .main > .article > .about {
+        flex-direction: column;
+    }
+
+    /* frame */
+    .main > .article > .about > .frame {
+        width: 100%;
+        padding: 100px 0 20px;
+    }
+    
+    .main > .article > .service {
+        padding: 20px 0;
+    }
+
+    /* service_title */
+    .main > .article > .service > .service_title {
+        margin-bottom: 30px;
+    }
+    
+    /* service_container */
+    .main > .article > .service > .service_container {
+        flex-wrap: wrap;
+    }
+
+    /* 
+        skill_title,
+        service_title,
+        frame_text_container
+    */
+    .main > .article > .skill > .skill_title,
+    .main > .article > .service > .service_title,
+    .main > .article >  .about > .frame_text > .frame_text_container {
+        width: 100%;
+    }
+    .main > .article > .skill > .skill_title > h1,
+    .main > .article > .service > .service_title  h1,
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > h1 {
+        padding: 8px 0 0 10px;
+    }
+    .main > .article > .skill > .skill_title > span,
+    .main > .article > .service > .service_title > span,
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > span {
+        left: 10px;
+    }
+}
+
+@media screen and ( min-width: 481px ) and ( max-width: 600px ) {
+    /* personal_info */
+    .main > .article >  .home > .personal_info {
+        width: 100%;
+        padding-left: 50px;
+    } 
+
+    /* about */
+    .main > .article > .about {
+        flex-direction: column;
+    }
+
+    /* frame */
+    .main > .article > .about > .frame {
+        width: 100%;
+        padding: 100px 0 20px;
+    }
+
+    /* 
+        frame_text,
+        skill_container,
+        frame_text_info,
+        service_container,
+        frame_text_container,
+        service_container_item
+    */
+    .main > .article >  .about > .frame_text,
+    .main > .article > .skill > .skill_container,
+    .main > .article > .service > .service_container,
+    .main > .article >  .about > .frame_text > .frame_text_container,
+    .main > .article > .service > .service_container > .service_container_item,
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_detail > .frame_text_info {
+        width: 100%;
+    }
+
+    /* frame_text_title */
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > h1 {
+        padding: 8px 0 0 10px;
+    }
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > span {
+        left: 10px;
+    }
+
+    /* service_container */
+    .main > .article > .service > .service_container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and ( min-width: 601px ) and ( max-width: 768px ) {
+    /* personal_info */
+    .main > .article >  .home > .personal_info {
+        width: 80%;
+        padding-left: 70px;
+    } 
+
+    /* about */
+    .main > .article > .about {
+        flex-direction: column;
+    }
+
+    /* frame */
+    .main > .article > .about > .frame {
+        width: 100%;
+        padding: 100px 0 20px;
+    }
+
+    /* frame_text */
+    .main > .article >  .about > .frame_text {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* frame_text_container */
+    .main > .article >  .about > .frame_text > .frame_text_container {
+        width: 75%;
+    }
+
+    /* frame_text_title */
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > h1 {
+        padding: 8px 0 0 10px;
+    }
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > span {
+        left: 0%;
+    }
+
+    /* frame_text_info */
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_detail > .frame_text_info {
+        width: 100%;
+    }
+
+    /* service_container */
+    .main > .article > .service > .service_container {
+        flex-wrap: wrap;
+    }
+
+    /* service_container_item */
+    .main > .article > .service > .service_container > .service_container_item {
+        width: 90%;
+    }
+}
+
+@media screen and ( min-width: 769px ) and ( max-width: 900px ) {
+    /* personal_info */
+    .main > .article >  .home > .personal_info {
+        width: 80%;
+    } 
+
+    /* about */
+    .main > .article > .about {
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    /* frame */
+    .main > .article > .about > .frame {
+        width: 100%;
+        padding: 100px 0 20px;
+    }
+
+    /* frame_text */
+    .main > .article >  .about > .frame_text {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* frame_text_container */
+    .main > .article >  .about > .frame_text > .frame_text_container {
+        width: 85%;
+    }
+
+    /* frame_text_title */
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > h1 {
+        padding: 8px 0 0 10px;
+    }
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_title > span {
+        left: 0%;
+    }
+
+    /* frame_text_info */
+    .main > .article >  .about > .frame_text > .frame_text_container > .frame_text_detail > .frame_text_info {
+        width: 50%;
+    }
+
+    /* service_container */
+    .main > .article > .service > .service_container {
+        flex-wrap: wrap;
+    }
+
+    /* service_container_item */
+    .main > .article > .service > .service_container > .service_container_item {
+        width: 70%;
+    }
+}
+
+@media screen and ( min-width: 901px ) and ( max-width: 1024px ) {
+    /* personal_info */
+    .main > .article >  .home > .personal_info {
+        width: 70%;
+    } 
+
+    /* about */
+    .main > .article > .about {
+        flex-direction: row;
+        padding-bottom: 40px;
+    }
+
+    /* frame */
+    .main > .article > .about > .frame {
+        width: 40%;
+        padding: 100px 0 20px;
+    }
+
+    /* frame_img_item */
+    .main > .article > .about > .frame > .frame_img > .frame_img_item {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* frame_media_top */
+    .main > .article > .about > .frame > .frame_img > .frame_media_top {
+        left: 50px;
+        width: 180px;
+    }
+
+    /* frame_media_bottom */
+    .main > .article > .about > .frame > .frame_img > .frame_media_bottom {
+        left: 90px;
+        width: 100px;
+    }
+
+    /* frame_text */
+    .main > .article >  .about > .frame_text {
+        width: 60%;
+        justify-content: left;
+    }
+
+    /* frame_text_container */
+    .main > .article >  .about > .frame_text > .frame_text_container {
+        width: 100%;
+    }
+
+    /* service_container */
+    .main > .article > .service > .service_container {
+        flex-wrap: wrap;
+    }
+
+    /* service_container_item */
+    .main > .article > .service > .service_container > .service_container_item {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1025px ) and ( max-width: 1200px ) {
+    /* personal_info */
+    .main > .article >  .home > .personal_info {
+        width: 70%;
+    } 
+
+    /* about */
+    .main > .article > .about {
+        flex-direction: row;
+        padding-bottom: 70px;
+    }
+
+    /* frame */
+    .main > .article > .about > .frame {
+        width: 40%;
+        padding: 100px 0 20px;
+    }
+
+    /* frame_img_item */
+    .main > .article > .about > .frame > .frame_img > .frame_img_item {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* frame_media_top */
+    .main > .article > .about > .frame > .frame_img > .frame_media_top {
+        left: 50px;
+        width: 180px;
+    }
+
+    /* frame_media_bottom */
+    .main > .article > .about > .frame > .frame_img > .frame_media_bottom {
+        left: 90px;
+        width: 100px;
+    }
+
+    /* frame_text */
+    .main > .article >  .about > .frame_text {
+        width: 60%;
+        justify-content: left;
+    }
+
+    /* frame_text_container */
+    .main > .article >  .about > .frame_text > .frame_text_container {
+        width: 100%;
+    }
+
+    /* service_container */
+    .main > .article > .service > .service_container {
+        flex-wrap: wrap;
+    }
+}
